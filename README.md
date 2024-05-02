@@ -32,7 +32,7 @@ b.adjacent // contains a and d
 c.adjacent // contains a and d
 d.adjacent // contains b and c
 ```
-###removeEdge
+### removeEdge
 This function should accept two nodes and remove the edge between them. It should modify the adjacency list to ensure that both values are not in each array for the two nodes which no longer contain the edge.
 ```
 let graph = new Graph()
